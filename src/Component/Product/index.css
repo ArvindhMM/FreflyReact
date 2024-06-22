@@ -1,0 +1,23 @@
+.product {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 calc(50% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.productInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.productButton{
+    background-color: #fe0000;
+    color: white;
+    padding: 10px;
+    border: none;
+}

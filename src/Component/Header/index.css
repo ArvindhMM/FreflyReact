@@ -1,0 +1,40 @@
+.headerContainer{
+    background-image: url('https://res.cloudinary.com/dhs1xv9et/image/upload/v1719065499/Frame_6_gyh5pp.png');
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.headerQuickView{
+    background-color: white;
+    color: #bb1d04;
+    padding: 15px;
+    border: none;
+    width: 10%;
+    font-weight: bold;
+}
+.logoContainer{
+    height: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    margin-left: 5rem;
+}
+.titleContainer{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 1rem;
+}
+
